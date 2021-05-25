@@ -1,0 +1,2 @@
+{"level":"DEBUG","time":"2021-05-25T16:35:58.976+0800","caller":"bluebell/main.go:23","msg":"log init success"}
+{"level":"DEBUG","time":"2021-05-25T16:38:38.151+0800","caller":"bluebell/main.go:23","msg":"log init success"}
