@@ -3,6 +3,7 @@ package main
 import (
 	"bluebell/dao/mysql"
 	"bluebell/logger"
+	"bluebell/router"
 	"bluebell/settings"
 	"fmt"
 
@@ -28,4 +29,8 @@ func main() {
 		return
 	}
 	defer mysql.Close()
+
+	//注册路由
+	router.Setup()
+
 }
