@@ -33,6 +33,7 @@ func main() {
 
 	//初始化redis
 	if err := redis.Init(); err != nil {
+		zap.L().Error("zap init redis failed, err:%v\n", zap.Error(err))
 		fmt.Printf("init redis failed, err:%v\n", err)
 		return
 	}

@@ -24,7 +24,7 @@ func Init() (err error) {
 	writeSyncer := getLogWriter(
 		viper.GetString("log.filename"),
 		viper.GetInt("log.max_size"),
-		viper.GetInt("log.max_size"),
+		viper.GetInt("log.max_age"),
 		viper.GetInt("log.max_backups"),
 	)
 	encoder := getEncoder()

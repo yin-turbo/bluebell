@@ -18,3 +18,9 @@
 {"level":"INFO","time":"2021-05-26T16:04:29.118+0800","caller":"logger/logger.go:72","msg":"/hello","status":200,"method":"GET","path":"/hello","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.0","errors":"","cost":0.0019994}
 {"level":"DEBUG","time":"2021-05-26T16:05:20.038+0800","caller":"bluebell/main.go:25","msg":"log init success"}
 {"level":"INFO","time":"2021-05-26T16:05:22.912+0800","caller":"logger/logger.go:72","msg":"/hello","status":200,"method":"GET","path":"/hello","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.0","errors":"","cost":0.0009999}
+{"level":"DEBUG","time":"2021-05-27T14:15:50.031+0800","caller":"bluebell/main.go:25","msg":"log init success"}
+{"level":"DEBUG","time":"2021-05-27T14:19:37.560+0800","caller":"bluebell/main.go:25","msg":"log init success"}
+{"level":"INFO","time":"2021-05-27T14:19:37.846+0800","caller":"redis/redis.go:28","msg":"zap connect redis successful"}
+{"level":"DEBUG","time":"2021-05-27T14:21:25.239+0800","caller":"bluebell/main.go:25","msg":"log init success"}
+{"level":"INFO","time":"2021-05-27T14:21:25.480+0800","caller":"redis/redis.go:28","msg":"zap connect redis successful"}
+{"level":"INFO","time":"2021-05-27T14:25:31.168+0800","caller":"logger/logger.go:72","msg":"/hello","status":200,"method":"GET","path":"/hello","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36","errors":"","cost":0.0109913}
