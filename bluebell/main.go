@@ -41,7 +41,7 @@ func main() {
 
 	//注册路由
 	r := router.Setup(settings.Conf.Mode)
-	err := r.Run(fmt.Sprintf(":%d", settings.Conf.Port))
+	err := r.Run()
 	if err != nil {
 		fmt.Printf("run server failed, err:%v\n", err)
 		return
