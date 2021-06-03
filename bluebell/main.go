@@ -40,6 +40,10 @@ func main() {
 	defer mysql.Close()
 
 	//注册路由
-	router.Setup()
-
+	r := router.Setup(settings.Conf.Mode)
+	err := r.Run(fmt.Sprintf(":%d", settings.Conf.Port))
+	if err != nil {
+		fmt.Printf("run server failed, err:%v\n", err)
+		return
+	}
 }
