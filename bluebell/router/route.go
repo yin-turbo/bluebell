@@ -11,15 +11,16 @@ func Setup(mode string) *gin.Engine {
 	r := gin.New()
 	r.Use(logger.GinLogger(), logger.GinRecovery(true))
 
-	//注册
+	//用户注册
 	r.POST("/signup", controller.SignupHandler)
+
+	//用户登录
 
 	r.GET("/hello", func(c *gin.Context) {
 		c.JSON(200, gin.H{
 			"message": "hello",
 		})
 	})
-	//r.Run(":8080")
 
 	return r
 }
