@@ -15,6 +15,7 @@ func Setup(mode string) *gin.Engine {
 	r.POST("/signup", controller.SignupHandler)
 
 	//用户登录
+	r.POST("/login",controller.LoginHandler)
 
 	r.GET("/hello", func(c *gin.Context) {
 		c.JSON(200, gin.H{
