@@ -8,11 +8,3 @@ const (
 
 //定义Msg map
 var codeMsg = map[ResCode]string{}
-
-//test branch
-
-//test 如何撤销一个commit
-
-//first
-
-//second
